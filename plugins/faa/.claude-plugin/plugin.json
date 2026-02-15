@@ -1,0 +1,8 @@
+{
+  "name": "faa",
+  "description": "Plays a 'faa' sound effect when a tool fails",
+  "version": "1.0.0",
+  "author": {
+    "name": "colinho"
+  }
+}

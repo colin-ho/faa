@@ -1,0 +1,13 @@
+{
+  "name": "faa-marketplace",
+  "owner": {
+    "name": "colinho"
+  },
+  "plugins": [
+    {
+      "name": "faa",
+      "source": "./plugins/faa",
+      "description": "Plays a 'faa' sound effect when a tool fails"
+    }
+  ]
+}

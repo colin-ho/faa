@@ -1,0 +1,16 @@
+{
+  "description": "Plays faa.mp3 when a tool fails",
+  "hooks": {
+    "PostToolUseFailure": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/play.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
